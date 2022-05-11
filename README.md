@@ -29,7 +29,7 @@
 >npm install the-space-between --save
 >```
 
-# Import
+## Import
 >### import axios or fetch version of the useTheSpaceBetween() hook
 >```
 >import {useTheSpaceBetween} from "./src/axios";
@@ -85,7 +85,7 @@
 >    </main>
 ></div>
 >```
->>####optional:
+>>###optional:
 >>>you can use your own component to alert the user but it is highly encouraged to utilize the same properties as shown
 >>>above to ensure a good user experience.
 
