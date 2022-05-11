@@ -1,0 +1,123 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.Modal-snackbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1500;
+}
+
+.Modal-snackbar-expiring {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 352px;
+    max-width: 880px;
+    background: rgba(255, 128, 8, 100%);
+    border-radius: 8px;
+    z-index: 2000;
+    margin: 2em 0;
+}
+
+.Modal-snackbar-expired {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 352px;
+    max-width: 880px    ;
+    background: rgba(255, 8, 8, 100%);
+    border-radius: 8px;
+    z-index: 2000;
+    margin: 2em 0;
+}
+
+.Modal-snackbar-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.Modal-snackbar-icon {
+    padding: 8px;
+    font-size: 28px;
+}
+
+.Modal-snackbar-action-container {
+    padding: 0 16px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    4% {
+        transform: translateY(-8px);
+    }
+    8% {
+        transform: translateY(0px);
+    }
+    12% {
+        transform: translateY(-8px);
+    }
+    16% {
+        transform: translateY(0px);
+    }
+    20% {
+        transform: translateY(-8px);
+    }
+    24% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.Modal-snackbar-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0);
+    border: transparent;
+    border-radius: 24px;
+    padding: 8px;
+    font-size: 32px;
+    color: white;
+    animation: bounce 8s;
+    animation-direction: normal;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.Modal-snackbar-action:hover {
+    background: rgba(0, 0, 0, 0.16);
+    animation: none;
+}
+
+.Modal-snackbar-action:focus {
+    background: rgba(0, 0, 0, 0.16);
+    animation: none;
+}
+
+.Modal-snackbar-text p {
+    margin: 0 8px;
+}

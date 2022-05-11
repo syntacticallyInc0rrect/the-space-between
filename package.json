@@ -1,0 +1,34 @@
+{
+  "name": "the-space-between",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/syntacticallyInc0rrect/the-space-between"
+  },
+  "author": "Jonathon D. Phillips <jonathon.d.phillips@gmail.com> (https://github.com/syntacticallyInc0rrect/)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.0.8",
+    "axios": "^0.27.2",
+    "react": "^18.1.0",
+    "react-icons": "^4.3.1",
+    "typescript": "^4.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
